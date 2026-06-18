@@ -1,0 +1,39 @@
+.AddStore-main-container{
+    width: 100%;
+    height: 870px;
+}
+.add-store-top-nav-container{
+    display:flex;
+    width: 100%;
+    height:50px;
+    align-items: center;
+}
+.add-store-form-container{
+    width: 100%;
+    height: 800px;
+}
+.add-store-form-area{
+    display:flex;
+    width:850px;
+    height:550px;
+    margin:20px 0px 0px 20px;
+    background-color:#F5F5F7;
+}
+.add-store-key{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:250px;
+    height: 550px;
+}
+.add-store-value{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width:700px;
+    height: 550px;
+}
+.add-store-btn{
+    display:flex;
+    margin:10px 0px 0px 25px;
+}
