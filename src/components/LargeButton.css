@@ -1,0 +1,17 @@
+.large-button{
+    width:250px;
+    height:40px;
+}
+.large-button button{
+width:238px;
+height:38px;
+border-radius: 10px;
+border: 1px solid grey;
+outline: none;
+font-size:0.9em;
+padding: 8px;
+margin-left:5px;
+background-color: #007BFF;
+color: #ffff;
+cursor: pointer;
+}

@@ -1,0 +1,127 @@
+.AddCustomer-container{
+    width: 100%;
+    height: 870px;
+}
+.top-nav-customer{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.customer-form-container{
+    display:flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 795px;
+    margin-left: 20px;
+    background-color:#F5F5F7;
+}
+.customer-details-area{
+    width:1100px;
+    height:290px;
+}
+.customer-details-key{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    width:270px;
+    height:290px; 
+}
+.customer-details-value{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    width:700px;
+    height:290px;
+}
+.customer-details-inner-items{
+    display: flex;
+    width: 700px;
+    height:40px;
+}
+.customer-details-inner-items select{
+    width:70px;
+    height:38px;
+    border-radius:10px;
+    margin-right:5px;
+    padding:8px;
+    outline: none;
+}
+.customer-tap-area{
+    display: flex;
+    align-items: center;
+    width:1100px;
+    height:50px;
+}
+.tap-items{
+    margin:15px;
+    border: 1px solid grey;
+    border-radius:10px;
+    padding:5px;
+    list-style: none;
+    background-color:#007BFF;
+    color:white;
+    cursor: pointer; 
+}
+.customer-address-area{
+    display: flex;
+    margin-top:10px;
+    width:1100px;
+    height:420px;
+}
+.customer-billing-address-area,.customer-shipping-address-area{
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height:420px;
+}
+
+.address-heading{
+    display: flex;
+    justify-content: space-between;
+    width:600px;
+    height:25px;
+}
+.billing-heading, .shipping-heading{
+    font-weight:bold;   
+}
+.shipping-inner-checkbox{
+    margin-right:20px;
+}
+.customer-billing-inner-area, .customer-shipping-inner-area{
+    display: flex;
+    width:500px;
+    height:382px;
+}
+
+.customer-billing-key, .customer-shipping-key{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    width:200px;
+    height:400px;
+}
+
+.customer-billing-value, .customer-shipping-value{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items:flex-start;
+    width: 400px;
+    height:400px;
+}
+
+.customer-billing-inner-items select,.customer-shipping-inner-items select{
+    width:238px;
+    height:38px;
+    border-radius:10px;
+    padding:8px;
+    outline:none;
+}
+.btn-shipping-area{
+    display: flex;
+    justify-content:flex-end;
+}

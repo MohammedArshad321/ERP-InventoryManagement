@@ -1,0 +1,119 @@
+.Customer-container{
+    width: 100%;
+    height:870px;
+    background-color:#F3F4EE;
+  }
+  .search-area{
+    display:flex;
+    width:100%;
+    height: 50px;
+    align-items: center;
+    justify-content:space-between;
+  } 
+  .customer-search-bar{
+    display:flex;
+    width:350px;
+  }
+  .search-area input{
+    width:300px;
+    height:35px;
+    margin-left:25px;
+    border-radius:20px;
+    font-size:1em;
+    outline:0;
+    padding:10px;
+  }
+  .customer-add-icon button{
+    margin-right:30px;
+    width:120px;
+    height:35px;
+    border-radius:10px;
+    border:none;
+    background-color:#007BFF;
+    color:white;
+    font-size:0.9em;
+    padding:10px;
+    cursor: pointer;
+  }
+  .customer-search-icon svg{
+  position:absolute;
+  margin-left:-30px;
+  margin-top:5px;
+  width:23px;
+  height:25px;
+  cursor: pointer;
+  
+  }
+  .customer-area{
+    display:grid;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    grid-template-columns: 370px 370px 370px 370px;
+    grid-gap:1em;
+    margin:15px 0px 0px 15px;
+    width:100%;
+    height:750px;
+  }
+  .customer-card{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color:#e3e3e3;
+  }
+  .customer-details-area{
+    display:flex;
+    width:370px;
+    height:130px;
+  }
+  .customer-img{
+    display:flex;
+    margin:15px 0px 0px 15px;
+    width:65px;
+  }
+  .customer-img img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+  }
+  .customer-info{
+    display:flex;
+    flex-direction: column;
+    width:305px;
+  }
+  .customer-info h3 {
+    margin:5px;
+  }
+  .customer-info p{
+    margin:5px;
+  }
+  .customer-info-more{
+    display: flex;
+    width:370px;
+    height:70px;
+    margin-top:7px;
+    border-top: 1px solid rgb(209, 201, 201);
+  }
+  .customer-info-more .last-order{
+    display:flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    width:185px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px;
+    
+  }
+  .customer-info-more .total-orders{
+    width:185px;
+  }
+  .customer-info-more .total-orders{
+    display:flex;
+    flex-direction: column;
+    font-size: 0.8em;
+    width:185px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:25px;
+  }
+  .customer-info-more h4{
+    margin-bottom:5px;
+  } 

@@ -1,0 +1,36 @@
+.order-list-container{
+    width: 100%;
+    height:870px;
+}
+.top-nav-order-list{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    justify-content:space-between;
+    align-items:center;
+}
+.order-list-nav-items{
+    display:flex;
+}
+.order-list-taps{
+    display:flex;
+    width: 500px;
+    height: 35px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top:10px;
+}
+.taps-item{
+    width:100px;
+    height: 25px;
+    margin:5px;
+    border:1px solid gray;
+    border-radius:10px;
+    outline: none;
+    text-align:center;
+    cursor: pointer;
+}
+.view-details-link a{
+    text-decoration: underline;
+    color: blue;
+}

@@ -1,0 +1,57 @@
+.AddEmployee-container{
+    width: 100%;
+    height: 870px;
+}
+.top-nav-employee{
+    display:flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+.employee-form-container{
+    display: flex;
+    width: 100%;
+    height: 450px;
+    margin-left:20px;
+    
+}
+.employee-details-area{
+    display:flex;
+    width:850px;
+    height:500px;
+    background-color:#F5F5F7;
+}
+.employee-details-key{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    width:250px;
+    height:450px;
+}
+.employee-details-value{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: flex-start;
+    width:700px;
+    height:450px;
+}
+.employee-details-inner-items{
+    display:flex;
+}
+.employee-details-inner-items select{
+    width: 70px;
+    height: 38px;
+    border-radius: 10px;
+    margin-right: 5px;
+    padding: 8px;
+    outline: none;
+}
+.btn-employee-area{
+    display:flex;
+   width:750px;
+   height:40px;
+   margin-top:20px;
+   margin-left:10px;
+}

@@ -1,0 +1,77 @@
+.Billing-main-container {
+    width: 100%;
+    height: 870px;
+}
+
+.billing-top-nav-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.billing-card-main-container {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 350px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #E3E3E3;
+}
+
+.top-heading-card {
+    width: 100%;
+    height: 50px;
+}
+.billing-card-container{
+    display: flex;
+    width:100%;
+    height:250px;
+
+}
+
+.billing-card {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 230px;
+    border-radius: 20px;
+    margin: 25px 0px 0px 15px;
+    background:linear-gradient(135deg, #622774 0%,#c53364 100%);
+    box-shadow: 2px 2px 20px #707070;
+    font-size: 1.1em;
+    color: azure;
+}
+
+.top-card {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle-card {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+.bottom-card {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-type, .card-chip, .card-holder-name, .card-expiry-date{
+    margin:20px;
+}
+.card-chip img{
+width:60px;
+height: 60px;
+}
