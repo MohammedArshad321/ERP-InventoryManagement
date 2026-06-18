@@ -1,1 +1,2 @@
-This is ERP_FrontEnd repo
+# ERP-InventoryManagement
+ERP-InventoryManagement-updated UI/UX with modern layout
